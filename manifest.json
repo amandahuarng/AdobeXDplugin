@@ -1,0 +1,28 @@
+{
+    "id": "54466367",
+    "name": "Project 1",
+    "version": "0.0.1",
+    "description": "Allows Claremont Consortium admin to add, resize their school logo and export their artboard as a pdf",
+    "summary": "Summary of your plugin",
+    "languages": [
+        "en"
+    ],
+    "author": "Your Name",
+    "helpUrl": "https://mywebsite.com/help",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0"
+    },
+    "uiEntryPoints": [ 
+        {
+            "type": "menu", 
+            "label": "Export Logo", 
+            "commandId": "exportLogo"
+        },
+        {
+            "type": "panel",
+            "label": "Generate School Logo",
+            "panelId": "createAndResizeLogo"
+        }
+    ]
+}
